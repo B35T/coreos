@@ -20,7 +20,7 @@ Set Password for CoreOS
 ```
 $ sudo passwd core
 
-#enter your password
+# enter your password
 ```
 
 SSH To CoreOS
@@ -28,7 +28,7 @@ SSH To CoreOS
 ```
 $ ssh core@ip
 
-#enter password
+# enter password
 ```
 
 Create  ``` ignition.json on your computer ``` for confing CoreOS 
@@ -37,7 +37,7 @@ Hash Password with openssl
 ```
 $ openssl passwd -1
 
-#enter your passord
+# enter your passord
 ```
 
 ```
