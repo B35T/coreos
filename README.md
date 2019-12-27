@@ -8,36 +8,36 @@ Download CoreOS image
 ``` 
 https://coreos.com/os/docs/latest/booting-with-iso.html
 
-add new user
+#add new user
 https://coreos.com/os/docs/latest/adding-users.html
 
-Generating RSA Key
+#Generating RSA Key
 https://help.github.com/en/enterprise/2.17/user/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 ```
 
 Set Password for CoreOS
 
 ```
-sudo passwd core
+$ sudo passwd core
 
-enter your password
+#enter your password
 ```
 
 SSH To CoreOS
 
 ```
-ssh core@ip
+$ ssh core@ip
 
-enter password
+#enter password
 ```
 
 Create  ``` ignition.json on your computer ``` for confing CoreOS 
 
 Hash Password with openssl
 ```
-openssl passwd -1
+$ openssl passwd -1
 
-enter your passord
+#enter your passord
 ```
 
 ```
