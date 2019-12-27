@@ -92,6 +92,10 @@ $ openssl passwd -1
 
 ```
 
+Install 
+``` 
+sudo coreos-install -d /dev/sda -C stable -i ignition.json 
+```
 
 # How to copy file remotely via SSH
 from ``` https://www.simplified.guide/ssh/copy-file ```
