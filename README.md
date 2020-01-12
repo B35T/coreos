@@ -97,6 +97,8 @@ Install
 sudo coreos-install -d /dev/sda -C stable -i ignition.json 
 ```
 
+เดี๋ยวมาทำต่อ
+
 # How to copy file remotely via SSH
 from ``` https://www.simplified.guide/ssh/copy-file ```
 
